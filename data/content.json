@@ -1,0 +1,234 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Safarova",
+    "tagline": "Tours",
+    "title": "Safarova Tours | Discover Egypt",
+    "description": "Discover Egypt with Safarova Tours: pyramids, oases, waterfalls and the Mediterranean, with local expert guides.",
+    "currency": "$"
+  },
+  "nav": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "Tours", "href": "index.html#tours" },
+    { "label": "About Us", "href": "index.html#about" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "bookButton": { "label": "Book Now", "href": "index.html#tours" },
+
+  "hero": {
+    "eyebrow": "Discover Egypt, Create Unforgettable Memories",
+    "title": "Safarova",
+    "titleHighlight": "Tours",
+    "subtitle": "Explore the wonders of Egypt with us. From the majestic pyramids to hidden gems, we offer unique travel experiences tailored just for you.",
+    "image": "images/hero.jpg",
+    "button": { "label": "Explore Our Tours", "href": "#tours" }
+  },
+
+  "search": {
+    "buttonLabel": "Search",
+    "destinationLabel": "Destination",
+    "destinationPlaceholder": "Choose destination",
+    "typeLabel": "Tour Type",
+    "typePlaceholder": "All Tours",
+    "dateLabel": "Date",
+    "travelersLabel": "Travelers",
+    "maxTravelers": 20,
+    "tourTypes": ["Day Trip", "Adventure", "Cultural", "Multi-Day"]
+  },
+
+  "features": [
+    { "icon": "shield", "title": "Trusted & Reliable", "text": "Your safety is our priority" },
+    { "icon": "guide", "title": "Local Expert Guides", "text": "Real stories, deeper experiences" },
+    { "icon": "calendar", "title": "Flexible Booking", "text": "Easy and secure" },
+    { "icon": "support", "title": "24/7 Support", "text": "We're always here for you" }
+  ],
+
+  "toursSection": {
+    "eyebrow": "Popular Tours",
+    "title": "Explore Our Top Destinations",
+    "subtitle": "Discover Egypt's most amazing places with our carefully designed tours.",
+    "linkLabel": "View Tour"
+  },
+
+  "why": {
+    "eyebrow": "Why Choose Safarova Tours",
+    "title": "More Than Just a Trip, It's an Experience",
+    "text": "We don't just show you Egypt, we help you feel it. With local knowledge, comfortable transportation and personalized service, your journey is in safe hands.",
+    "image": "images/g-desert.jpg",
+    "items": [
+      { "icon": "route", "title": "Customized Tours", "text": "Trips tailored to your interests" },
+      { "icon": "car", "title": "Comfortable Transportation", "text": "Modern, clean and safe vehicles" },
+      { "icon": "star", "title": "Authentic Experiences", "text": "Meet the real Egypt" },
+      { "icon": "tag", "title": "Affordable Prices", "text": "Great value, no hidden costs" }
+    ]
+  },
+
+  "tours": [
+    {
+      "id": "cairo-giza",
+      "name": "Cairo & Giza",
+      "destination": "Cairo & Giza",
+      "types": ["Day Trip", "Cultural"],
+      "tags": "Pyramids, Sphinx, Egyptian Museum",
+      "image": "images/cairo-giza.jpg",
+      "gallery": ["images/cairo-giza.jpg", "images/g-pyramids.jpg", "images/g-camel.jpg", "images/g-sunset.jpg"],
+      "duration": "1 Day",
+      "pickup": "Cairo / Giza hotels",
+      "groupType": "Group / Private",
+      "price": 95,
+      "priceNote": "per person",
+      "maxGroup": 15,
+      "availableDays": [0, 1, 2, 3, 4, 5, 6],
+      "summary": "Stand before the last surviving wonder of the ancient world, meet the Great Sphinx and walk through thousands of years of history in one unforgettable day.",
+      "highlights": [
+        "Hotel pickup and drop-off in an air-conditioned car",
+        "Great Pyramids of Giza and the Panoramic Point",
+        "The Great Sphinx and the Valley Temple",
+        "Egyptian Museum with an Egyptologist guide",
+        "Optional camel ride at the plateau",
+        "Lunch at a local restaurant"
+      ],
+      "itinerary": [
+        { "time": "08:00", "title": "Hotel pickup", "text": "Your guide meets you at your hotel lobby in Cairo or Giza." },
+        { "time": "09:00", "title": "Giza Plateau", "text": "Visit the Great Pyramid of Khufu, Khafre and Menkaure, then the Panoramic Point." },
+        { "time": "11:30", "title": "The Sphinx", "text": "Explore the Great Sphinx and the Valley Temple of Khafre." },
+        { "time": "13:00", "title": "Lunch", "text": "Traditional Egyptian lunch at a local restaurant." },
+        { "time": "14:30", "title": "Egyptian Museum", "text": "Discover royal treasures and mummies with your Egyptologist." },
+        { "time": "17:30", "title": "Return", "text": "Drop-off at your hotel." }
+      ],
+      "included": ["Private or group transport", "Licensed Egyptologist guide", "Entrance fees to the plateau and museum", "Lunch", "Bottled water"],
+      "notIncluded": ["Entry inside the pyramids", "Camel ride", "Tips", "Personal expenses"]
+    },
+    {
+      "id": "siwa-oasis",
+      "name": "Siwa Oasis",
+      "destination": "Siwa Oasis",
+      "types": ["Adventure", "Multi-Day", "Cultural"],
+      "tags": "Nature, Culture, Adventure",
+      "image": "images/siwa-oasis.jpg",
+      "gallery": ["images/siwa-oasis.jpg", "images/g-lake.jpg", "images/g-jeep.jpg", "images/g-desert.jpg"],
+      "duration": "3 Days / 2 Nights",
+      "pickup": "Cairo",
+      "groupType": "Group / Private",
+      "price": 320,
+      "priceNote": "per person",
+      "maxGroup": 12,
+      "availableDays": [3, 4],
+      "summary": "Escape to Egypt's most remote oasis: salt lakes, palm groves, hot springs and the endless dunes of the Great Sand Sea.",
+      "highlights": [
+        "Round-trip transport from Cairo",
+        "Shali Fortress and the Oracle Temple of Amun",
+        "Swim in the floating salt lakes",
+        "4x4 safari in the Great Sand Sea",
+        "Sunset at Fatnas Island",
+        "2 nights at an eco-lodge with breakfast and dinner"
+      ],
+      "itinerary": [
+        { "time": "Day 1", "title": "Cairo to Siwa", "text": "Early departure, scenic drive via Marsa Matruh, check-in and dinner at the eco-lodge." },
+        { "time": "Day 2", "title": "Oasis & Desert", "text": "Shali Fortress, Oracle Temple, Cleopatra's Spring, then 4x4 safari, sandboarding and sunset." },
+        { "time": "Day 3", "title": "Salt Lakes & Return", "text": "Morning swim in the salt lakes, then drive back to Cairo." }
+      ],
+      "included": ["Transport by modern minibus", "4x4 desert safari", "2 nights accommodation", "Breakfast and dinner", "Local guide", "Entrance fees"],
+      "notIncluded": ["Lunches", "Tips", "Personal expenses"]
+    },
+    {
+      "id": "fayoum",
+      "name": "Fayoum Oasis",
+      "destination": "Fayoum",
+      "types": ["Day Trip", "Adventure"],
+      "tags": "Waterfalls, Desert, Wadi El Rayan",
+      "image": "images/fayoum.jpg",
+      "gallery": ["images/fayoum.jpg", "images/g-waterfall.jpg", "images/g-jeep.jpg", "images/g-lake.jpg"],
+      "duration": "1 Day",
+      "pickup": "Cairo / Giza",
+      "groupType": "Group / Private",
+      "price": 150,
+      "priceNote": "per person",
+      "maxGroup": 14,
+      "availableDays": [0, 1, 2, 3, 4, 5, 6],
+      "summary": "Escape the city and discover the natural beauty of Fayoum Oasis. This tour takes you to stunning waterfalls, desert landscapes and the unique Medawara Mountains. A perfect day for adventure, relaxation and unforgettable photos.",
+      "highlights": [
+        "Cairo/Giza hotel pickup and drop-off in an AC car",
+        "4x4 desert adventure",
+        "Visit Wadi El Rayan waterfalls",
+        "Sandboarding and camel ride",
+        "Optional grilled chicken lunch + Bedouin tea",
+        "Medawara Mountains"
+      ],
+      "itinerary": [
+        { "time": "07:30", "title": "Hotel pickup", "text": "Depart Cairo/Giza toward Fayoum (about 2 hours)." },
+        { "time": "10:00", "title": "Wadi El Rayan", "text": "Visit the waterfalls and the lakes of Wadi El Rayan Protected Area." },
+        { "time": "12:00", "title": "4x4 & sandboarding", "text": "Desert drive, sandboarding on the dunes and a short camel ride." },
+        { "time": "14:00", "title": "Lunch & tea", "text": "Bedouin-style lunch (optional) and tea at the Medawara Mountains." },
+        { "time": "17:30", "title": "Return", "text": "Drive back and drop-off at your hotel." }
+      ],
+      "included": ["AC transport", "4x4 desert vehicle", "Sandboarding equipment", "Local guide", "Entrance fees", "Bottled water"],
+      "notIncluded": ["Lunch (optional add-on)", "Tips", "Personal expenses"]
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "destination": "Alexandria",
+      "types": ["Day Trip", "Cultural"],
+      "tags": "Mediterranean, History, Culture",
+      "image": "images/alexandria.jpg",
+      "gallery": ["images/alexandria.jpg", "images/g-alex-bay.jpg", "images/g-columns.jpg", "images/g-sunset.jpg"],
+      "duration": "1 Day",
+      "pickup": "Cairo / Giza hotels",
+      "groupType": "Group / Private",
+      "price": 120,
+      "priceNote": "per person",
+      "maxGroup": 15,
+      "availableDays": [0, 1, 2, 3, 4, 5, 6],
+      "summary": "Discover the Pearl of the Mediterranean: Roman ruins, a legendary library and the sea breeze along the Corniche.",
+      "highlights": [
+        "Round-trip AC transport from Cairo",
+        "Catacombs of Kom El Shoqafa",
+        "Pompey's Pillar",
+        "Citadel of Qaitbay on the site of the ancient lighthouse",
+        "Bibliotheca Alexandrina",
+        "Seafood lunch by the sea"
+      ],
+      "itinerary": [
+        { "time": "07:00", "title": "Hotel pickup", "text": "Desert road drive to Alexandria (about 3 hours)." },
+        { "time": "10:00", "title": "Roman Alexandria", "text": "Catacombs of Kom El Shoqafa and Pompey's Pillar." },
+        { "time": "12:30", "title": "Qaitbay Citadel", "text": "Explore the 15th-century fortress on the Mediterranean." },
+        { "time": "14:00", "title": "Seafood lunch", "text": "Fresh seafood lunch with a sea view." },
+        { "time": "15:30", "title": "Bibliotheca Alexandrina", "text": "Visit the modern library, then drive back to Cairo." }
+      ],
+      "included": ["AC transport", "Licensed guide", "Entrance fees", "Lunch", "Bottled water"],
+      "notIncluded": ["Tips", "Personal expenses"]
+    }
+  ],
+
+  "tourPage": {
+    "bannerImage": "images/page-banner.jpg",
+    "highlightsTitle": "Tour Highlights",
+    "fromLabel": "From",
+    "bookLabel": "Book Now",
+    "relatedTitle": "You May Also Like",
+    "notFound": "Sorry, we couldn't find this tour.",
+    "labels": { "duration": "Duration", "pickup": "Pickup", "type": "Type", "price": "Price" },
+    "tabs": { "description": "Description", "itinerary": "Itinerary", "included": "What's Included", "notIncluded": "What's Not Included" }
+  },
+
+  "footer": {
+    "image": "images/footer-bg.jpg",
+    "ctaTitle": "Ready for Your Next Adventure?",
+    "ctaText": "Let us help you plan your perfect trip to Egypt.",
+    "ctaButton": "Contact Us",
+    "about": "Authentic, safe and unforgettable travel experiences across Egypt.",
+    "contact": {
+      "phone": "+20 100 000 0000",
+      "email": "info@safarova-tours.com",
+      "address": "Cairo, Egypt",
+      "whatsapp": "201000000000"
+    },
+    "social": [
+      { "icon": "facebook", "href": "https://facebook.com/" },
+      { "icon": "instagram", "href": "https://instagram.com/" },
+      { "icon": "whatsapp", "href": "https://wa.me/201000000000" }
+    ],
+    "copyright": "© 2026 Safarova Tours. All rights reserved."
+  }
+}
